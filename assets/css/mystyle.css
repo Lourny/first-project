@@ -4,14 +4,25 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
   font-family: "myFont";
 }
+
 @font-face {
   font-family: "myFont";
-  src: url(assets/fonts/FontsFree-Net-ir_sans.ttf) format("truetype");
+  src: url(../fonts/FontsFree-Net-ir_sans.ttf) format("truetype");
 }
 body {
   display: flex;
@@ -33,12 +44,14 @@ body {
   justify-content: flex-start;
   margin-top: 20px;
 }
+
 .header {
   height: 220px;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
+
 .right-header {
   width: 30%;
   background-color: #f0f0f0;
@@ -54,9 +67,11 @@ body {
   text-align: center;
   font-family: "myFont";
 }
+
 .right-header input::placeholder {
   font-size: 12px;
 }
+
 .right-header button {
   font-family: "myFont";
   font-size: 12px;
@@ -68,6 +83,7 @@ body {
   height: 35px;
   cursor: pointer;
 }
+
 .right-header a {
   text-decoration: none;
   font-size: 10px;
@@ -82,12 +98,14 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .left-header p {
   color: white;
   padding: 0 30px;
   font-size: 13px;
   padding-top: 90px;
 }
+
 .left-header button {
   border: none;
   outline: none;
@@ -108,6 +126,7 @@ body {
   align-items: center;
   margin: 20px;
 }
+
 .holder hr {
   width: 100%;
 }
@@ -119,6 +138,7 @@ body {
   width: 350px;
   text-align: center;
 }
+
 .main {
   width: 100%;
   display: flex;
@@ -127,6 +147,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .card {
   width: 295px;
   height: 175px;
@@ -135,23 +156,28 @@ body {
   padding: 10px;
   margin: 5px 0;
 }
+
 .card-p1 {
   color: #0000ff;
   font-size: 12px;
 }
+
 .card a {
   color: #808080;
   text-decoration: none;
   font-size: 16px;
 }
+
 .card-p2 {
   font-size: 12px;
 }
+
 .footer a {
   color: #7676dc;
   text-decoration: none;
   font-size: 10px;
 }
+
 @media screen and (max-width: 900px) {
   .header {
     flex-direction: column;
@@ -167,19 +193,18 @@ body {
     padding: 20px;
     margin-bottom: 40px;
   }
-  .right-header input
-   {
+  .right-header input {
     width: 40%;
     margin: 10px;
   }
-  .right-header button{
+  .right-header button {
     width: 40%;
     margin: 10px;
   }
   .logo {
     display: none;
   }
-  .footer{
+  .footer {
     margin-top: 50px;
   }
-}
+}/*# sourceMappingURL=mystyle.css.map */

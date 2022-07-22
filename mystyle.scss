@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    font-family: "myFont";
+  }
+  @font-face {
+    font-family: "myFont";
+    src: url(assets/fonts/FontsFree-Net-ir_sans.ttf) format("truetype");
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .header {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .right-header {
+    width: 30%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .right-header input {
+    width: 85%;
+    height: 35px;
+    text-align: center;
+    font-family: "myFont";
+  }
+  .right-header input::placeholder {
+    font-size: 12px;
+  }
+  .right-header button {
+    font-family: "myFont";
+    font-size: 12px;
+    width: 85%;
+    background-color: #4444ff;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+  }
+  .right-header a {
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .left-header {
+    width: 75%;
+    background-color: #5b5bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .left-header p {
+    color: white;
+    padding: 0 30px;
+    font-size: 13px;
+    padding-top: 90px;
+  }
+  .left-header button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: "myFont";
+    background-color: #0101aa;
+    color: white;
+    margin: 35px 0px;
+  }
+  
+  .holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .holder hr {
+    width: 100%;
+  }
+  
+  .holder p {
+    color: #0000ff;
+    font-size: 14px;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 295px;
+    height: 175px;
+    background-color: #f0f0f0;
+    direction: rtl;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  .card-p1 {
+    color: #0000ff;
+    font-size: 12px;
+  }
+  .card a {
+    color: #808080;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .card-p2 {
+    font-size: 12px;
+  }
+  .footer a {
+    color: #7676dc;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 900px) {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 100px;
+    }
+    .left-header {
+      width: 100%;
+    }
+    .right-header {
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    .right-header input
+     {
+      width: 40%;
+      margin: 10px;
+    }
+    .right-header button{
+      width: 40%;
+      margin: 10px;
+    }
+    .logo {
+      display: none;
+    }
+    .footer{
+      margin-top: 50px;
+    }
+  }
+  
